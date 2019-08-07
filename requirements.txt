@@ -1,0 +1,9 @@
+jupyterhub==0.8.*
+numpy
+pandas
+matplotlib
+git+https://github.com/pytries/datrie.git
+snakemake
+jupyter_contrib_nbextensions
+jupytext
+networkx
