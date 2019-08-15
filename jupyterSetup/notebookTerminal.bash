@@ -14,4 +14,7 @@ conda install -c anaconda openjdk (version 8.0.152)
 databricks-connect test
 
 conda install nb_conda
+conda install -c conda-forge matplotlib
+conda install -c conda-forge scikit-learn 
+conda install -c conda-forge pandas 
 python -m ipykernel install --user --name databricks --display-name "Python (databricks-backend)"
