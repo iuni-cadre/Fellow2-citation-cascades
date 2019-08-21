@@ -1,0 +1,8 @@
+{
+  "NotebookApp": {
+    "nbserver_extensions": {
+      "nb_conda": true
+    },
+    "kernel_spec_manager_class": "nb_conda_kernels.CondaKernelSpecManager"
+  }
+}

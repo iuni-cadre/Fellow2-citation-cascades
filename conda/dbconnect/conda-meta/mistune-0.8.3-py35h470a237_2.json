@@ -1,0 +1,102 @@
+{
+  "build": "py35h470a237_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=4.9",
+    "python >=3.5,<3.6.0a0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/mistune-0.8.3-py35h470a237_2",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/__pycache__/mistune.cpython-35.pyc",
+    "lib/python3.5/site-packages/mistune-0.8.3.dist-info/INSTALLER",
+    "lib/python3.5/site-packages/mistune-0.8.3.dist-info/METADATA",
+    "lib/python3.5/site-packages/mistune-0.8.3.dist-info/RECORD",
+    "lib/python3.5/site-packages/mistune-0.8.3.dist-info/WHEEL",
+    "lib/python3.5/site-packages/mistune-0.8.3.dist-info/top_level.txt",
+    "lib/python3.5/site-packages/mistune.cpython-35m-x86_64-linux-gnu.so",
+    "lib/python3.5/site-packages/mistune.py"
+  ],
+  "fn": "mistune-0.8.3-py35h470a237_2.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/mistune-0.8.3-py35h470a237_2",
+    "type": 1
+  },
+  "md5": "d9da9a476ebf01a05507a41c6b026c61",
+  "name": "mistune",
+  "package_tarball_full_path": "/opt/conda/pkgs/mistune-0.8.3-py35h470a237_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/__pycache__/mistune.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "3758b149892aa9f22771511aaa6a9ec93d1661bbaa63dbc5ff50a46815274fe6",
+        "sha256_in_prefix": "3758b149892aa9f22771511aaa6a9ec93d1661bbaa63dbc5ff50a46815274fe6",
+        "size_in_bytes": 36393
+      },
+      {
+        "_path": "lib/python3.5/site-packages/mistune-0.8.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.5/site-packages/mistune-0.8.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7a6e5eda93d720d0af925397f5d11b875e172635f2288c6fe30b3b1aabe58b27",
+        "sha256_in_prefix": "7a6e5eda93d720d0af925397f5d11b875e172635f2288c6fe30b3b1aabe58b27",
+        "size_in_bytes": 8390
+      },
+      {
+        "_path": "lib/python3.5/site-packages/mistune-0.8.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "46f4ab6b6fbc81f3a71ad49eb39af4db27bf8a6c3c6309e74c8a33b6af9a4c59",
+        "sha256_in_prefix": "46f4ab6b6fbc81f3a71ad49eb39af4db27bf8a6c3c6309e74c8a33b6af9a4c59",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "lib/python3.5/site-packages/mistune-0.8.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8ba93b780485d0f624c5393cc58183a369609af1f13ce268a7ced6a0eddcdfc1",
+        "sha256_in_prefix": "8ba93b780485d0f624c5393cc58183a369609af1f13ce268a7ced6a0eddcdfc1",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.5/site-packages/mistune-0.8.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b6325333ae6401dc0a009da603bebdb670c661895f47ca6a46ca1b2a35447dc8",
+        "sha256_in_prefix": "b6325333ae6401dc0a009da603bebdb670c661895f47ca6a46ca1b2a35447dc8",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.5/site-packages/mistune.cpython-35m-x86_64-linux-gnu.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mistune_1532602735403/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "2de63cb46eb650300953676ae0c0a0e7f70edd026c56356f315cf44a1f4312d4",
+        "sha256_in_prefix": "80230932069aa75327c0f10c6ee0003fbc0a46910be3caccb26b58327baaf319",
+        "size_in_bytes": 2717670
+      },
+      {
+        "_path": "lib/python3.5/site-packages/mistune.py",
+        "path_type": "hardlink",
+        "sha256": "d4253f035d3b8c4b71efc3e312daba738647b4a743a2745224e0cfb702117957",
+        "sha256_in_prefix": "d4253f035d3b8c4b71efc3e312daba738647b4a743a2745224e0cfb702117957",
+        "size_in_bytes": 35484
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 841202,
+  "subdir": "linux-64",
+  "timestamp": 1532602808883,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mistune-0.8.3-py35h470a237_2.tar.bz2",
+  "version": "0.8.3"
+}

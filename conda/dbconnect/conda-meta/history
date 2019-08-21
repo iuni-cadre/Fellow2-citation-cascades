@@ -1,0 +1,85 @@
+==> 2019-08-13 18:10:38 <==
+# cmd: /opt/conda/bin/conda create -y -p /home/jovyan/conda/dbconnect python=3.5
+# conda version: 4.7.10
++conda-forge::bzip2-1.0.8-h516909a_0
++conda-forge::ca-certificates-2019.6.16-hecc5488_0
++conda-forge::certifi-2018.8.24-py35_1001
++conda-forge::libffi-3.2.1-he1b5a44_1006
++conda-forge::ncurses-6.1-hf484d3e_1002
++conda-forge::openssl-1.0.2r-h14c3975_0
++conda-forge::pip-18.0-py35_1001
++conda-forge::python-3.5.5-h5001a0f_2
++conda-forge::readline-7.0-hf8c457e_1001
++conda-forge::setuptools-40.4.3-py35_0
++conda-forge::sqlite-3.28.0-h8b20d00_0
++conda-forge::tk-8.6.9-hed695b0_1002
++conda-forge::wheel-0.32.0-py35_1000
++conda-forge::xz-5.2.4-h14c3975_1001
++conda-forge::zlib-1.2.11-h516909a_1005
++defaults::_libgcc_mutex-0.1-main
++defaults::libgcc-ng-9.1.0-hdf63c60_0
++defaults::libstdcxx-ng-9.1.0-hdf63c60_0
+# update specs: ['python=3.5']
+==> 2019-08-13 19:05:01 <==
+# cmd: /opt/conda/bin/conda install -c conda-forge openjdk
+# conda version: 4.6.11
++conda-forge::openjdk-11.0.1-h516909a_1016
+# update specs: ['openjdk']
+==> 2019-08-13 19:23:03 <==
+# cmd: /opt/conda/bin/conda install nb_conda
+# conda version: 4.6.11
++conda-forge::backcall-0.1.0-py_0
++conda-forge::bleach-3.1.0-py_0
++conda-forge::decorator-4.4.0-py_0
++conda-forge::defusedxml-0.5.0-py_1
++conda-forge::entrypoints-0.2.3-py35_2
++conda-forge::ipykernel-5.1.0-pyh24bf2e0_0
++conda-forge::ipython-7.0.1-py35h24bf2e0_0
++conda-forge::ipython_genutils-0.2.0-py_1
++conda-forge::jedi-0.12.1-py35_0
++conda-forge::jinja2-2.10.1-py_0
++conda-forge::jsonschema-2.6.0-py35_2
++conda-forge::jupyter_client-5.3.1-py_0
++conda-forge::jupyter_core-4.4.0-py_0
++conda-forge::libsodium-1.0.17-h516909a_0
++conda-forge::markupsafe-1.0-py35h470a237_1
++conda-forge::mistune-0.8.3-py35h470a237_2
++conda-forge::nb_conda-2.2.1-py35_0
++conda-forge::nb_conda_kernels-2.1.1-py35_1
++conda-forge::nbconvert-5.6.0-py_0
++conda-forge::nbformat-4.4.0-py_1
++conda-forge::notebook-5.7.0-py35_0
++conda-forge::pandoc-2.7.3-0
++conda-forge::pandocfilters-1.4.2-py_1
++conda-forge::parso-0.5.1-py_0
++conda-forge::pexpect-4.6.0-py35_0
++conda-forge::pickleshare-0.7.5-py35_0
++conda-forge::prometheus_client-0.7.1-py_0
++conda-forge::prompt_toolkit-2.0.9-py_0
++conda-forge::ptyprocess-0.6.0-py_1001
++conda-forge::pygments-2.4.2-py_0
++conda-forge::python-dateutil-2.8.0-py_0
++conda-forge::pyzmq-17.1.2-py35hae99301_0
++conda-forge::send2trash-1.5.0-py_0
++conda-forge::simplegeneric-0.8.1-py_1
++conda-forge::six-1.11.0-py35_1
++conda-forge::terminado-0.8.1-py35_1
++conda-forge::testpath-0.4.2-py_1001
++conda-forge::tornado-5.1.1-py35h470a237_0
++conda-forge::traitlets-4.3.2-py35_0
++conda-forge::wcwidth-0.1.7-py_1
++conda-forge::webencodings-0.5.1-py_1
++conda-forge::zeromq-4.2.5-hfc679d8_4
+# update specs: ['nb_conda']
+==> 2019-08-13 19:45:49 <==
+# cmd: /opt/conda/bin/conda install -c anaconda openjdk
+# conda version: 4.6.11
+-conda-forge::ca-certificates-2019.6.16-hecc5488_0
+-conda-forge::certifi-2018.8.24-py35_1001
+-conda-forge::openjdk-11.0.1-h516909a_1016
+-conda-forge::openssl-1.0.2r-h14c3975_0
++anaconda::ca-certificates-2019.5.15-1
++anaconda::certifi-2018.8.24-py35_1
++anaconda::openjdk-8.0.152-h46b5887_1
++anaconda::openssl-1.0.2s-h7b6447c_0
+# update specs: ['openjdk']

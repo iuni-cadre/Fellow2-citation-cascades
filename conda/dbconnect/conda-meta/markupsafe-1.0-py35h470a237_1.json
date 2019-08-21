@@ -1,0 +1,166 @@
+{
+  "build": "py35h470a237_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=4.9",
+    "python >=3.5,<3.6.0a0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/markupsafe-1.0-py35h470a237_1",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/installed-files.txt",
+    "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/not-zip-safe",
+    "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/markupsafe/__init__.py",
+    "lib/python3.5/site-packages/markupsafe/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/markupsafe/__pycache__/_compat.cpython-35.pyc",
+    "lib/python3.5/site-packages/markupsafe/__pycache__/_constants.cpython-35.pyc",
+    "lib/python3.5/site-packages/markupsafe/__pycache__/_native.cpython-35.pyc",
+    "lib/python3.5/site-packages/markupsafe/_compat.py",
+    "lib/python3.5/site-packages/markupsafe/_constants.py",
+    "lib/python3.5/site-packages/markupsafe/_native.py",
+    "lib/python3.5/site-packages/markupsafe/_speedups.c",
+    "lib/python3.5/site-packages/markupsafe/_speedups.cpython-35m-x86_64-linux-gnu.so"
+  ],
+  "fn": "markupsafe-1.0-py35h470a237_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/markupsafe-1.0-py35h470a237_1",
+    "type": 1
+  },
+  "md5": "842c5643ed30ae088d24c623c9e12c67",
+  "name": "markupsafe",
+  "package_tarball_full_path": "/opt/conda/pkgs/markupsafe-1.0-py35h470a237_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "ef6df239ced1be7432fbf91696b3666307a2f009cae972de90436992f7ef79c5",
+        "sha256_in_prefix": "ef6df239ced1be7432fbf91696b3666307a2f009cae972de90436992f7ef79c5",
+        "size_in_bytes": 5097
+      },
+      {
+        "_path": "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "a228cf68678e6112b029bdd0984de9cd17a023cf6838d9d717f392c2051ae47b",
+        "sha256_in_prefix": "a228cf68678e6112b029bdd0984de9cd17a023cf6838d9d717f392c2051ae47b",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "224f4eabcbf603c8abf9750a0bb9aab1664591214c2c895b23380d84ad7fddf1",
+        "sha256_in_prefix": "224f4eabcbf603c8abf9750a0bb9aab1664591214c2c895b23380d84ad7fddf1",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/MarkupSafe-1.0-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ab2d0f9637b9209bafb020637a32728430a310075c0cb2bfd9a81571ec7c67a5",
+        "sha256_in_prefix": "ab2d0f9637b9209bafb020637a32728430a310075c0cb2bfd9a81571ec7c67a5",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.5/site-packages/markupsafe/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c6d911771873273829eb9c14a350f80e39dacf11d4f3ca4f95d680b837a405e6",
+        "sha256_in_prefix": "c6d911771873273829eb9c14a350f80e39dacf11d4f3ca4f95d680b837a405e6",
+        "size_in_bytes": 10697
+      },
+      {
+        "_path": "lib/python3.5/site-packages/markupsafe/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ebdc4caab584306b53e5064c2c7aa860fcac1e1902d96bdf7446e774f1ceaa6",
+        "sha256_in_prefix": "2ebdc4caab584306b53e5064c2c7aa860fcac1e1902d96bdf7446e774f1ceaa6",
+        "size_in_bytes": 12080
+      },
+      {
+        "_path": "lib/python3.5/site-packages/markupsafe/__pycache__/_compat.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3bfba84aa2b208c83ed782f845229dd238c24e57e00198d95ae020c885ecf83",
+        "sha256_in_prefix": "e3bfba84aa2b208c83ed782f845229dd238c24e57e00198d95ae020c885ecf83",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "lib/python3.5/site-packages/markupsafe/__pycache__/_constants.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2bdb0a71790103bce00385f693e67840d1177cf7f0591f9ea9ed19cbbe6e59e",
+        "sha256_in_prefix": "f2bdb0a71790103bce00385f693e67840d1177cf7f0591f9ea9ed19cbbe6e59e",
+        "size_in_bytes": 5335
+      },
+      {
+        "_path": "lib/python3.5/site-packages/markupsafe/__pycache__/_native.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f71e1027c2b1b6e58a0f073abec6474dd8e474f6ab2a1856ce21c293efd13260",
+        "sha256_in_prefix": "f71e1027c2b1b6e58a0f073abec6474dd8e474f6ab2a1856ce21c293efd13260",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "lib/python3.5/site-packages/markupsafe/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "af51c4d02a5c01979bf8089357dc084d1f753de2c79f40b367f5c7918a28ce92",
+        "sha256_in_prefix": "af51c4d02a5c01979bf8089357dc084d1f753de2c79f40b367f5c7918a28ce92",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "lib/python3.5/site-packages/markupsafe/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "53fc726c542cc9728280749fada9c99c5ce8fb3f679fd7ee05e4a4db8dec1394",
+        "sha256_in_prefix": "53fc726c542cc9728280749fada9c99c5ce8fb3f679fd7ee05e4a4db8dec1394",
+        "size_in_bytes": 4795
+      },
+      {
+        "_path": "lib/python3.5/site-packages/markupsafe/_native.py",
+        "path_type": "hardlink",
+        "sha256": "136527d72b0e7fec38e5dd7c6028fc51e953e543fb56dfff22e14f609ed8448b",
+        "sha256_in_prefix": "136527d72b0e7fec38e5dd7c6028fc51e953e543fb56dfff22e14f609ed8448b",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "lib/python3.5/site-packages/markupsafe/_speedups.c",
+        "path_type": "hardlink",
+        "sha256": "07a31fe859f7dd6aa46a07f063bab96414a6fef2681c36310c1d09a7f0cfec9c",
+        "sha256_in_prefix": "07a31fe859f7dd6aa46a07f063bab96414a6fef2681c36310c1d09a7f0cfec9c",
+        "size_in_bytes": 5936
+      },
+      {
+        "_path": "lib/python3.5/site-packages/markupsafe/_speedups.cpython-35m-x86_64-linux-gnu.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/markupsafe_1535239695157/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "02fdbe22445fa342f0e569bbb579343f0e65ea04ed9da42011829568c109572d",
+        "sha256_in_prefix": "e57ad5e9c70c09a41f6aa50923de1cfe31cd0f84bbcbcb62342afce5e7c3b77c",
+        "size_in_bytes": 32917
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 33899,
+  "subdir": "linux-64",
+  "timestamp": 1535239722624,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/markupsafe-1.0-py35h470a237_1.tar.bz2",
+  "version": "1.0"
+}
