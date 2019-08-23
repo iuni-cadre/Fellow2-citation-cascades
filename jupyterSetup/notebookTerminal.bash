@@ -13,7 +13,10 @@ pip install python-igraph --user
 pip show python-igraph
 cp -r ~/.local/lib/python3.7 ~/ISSItutorial/local/lib/python3.7
 
+mkdir ~/.local/lib
+mkdir ~/.local/python3.7
 cp -r ~/ISSItutorial/local/lib/python3.7 ~/.local/lib/python3.7
+
 
 --------------restart terminal----------------
 
