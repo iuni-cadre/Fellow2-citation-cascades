@@ -11,9 +11,38 @@ RUN mkdir ~/.local/python3.7
 RUN cp -r ~/ISSI-tutorial/local/lib/python3.7 ~/.local/lib/python3.7
 ------edit Dockerfile-------
 
-sudo docker build -t issi-jupyter .
+------edit Dockerfile2-------
+FROM jupyter/datascience-notebook
+RUN pip install nbgitpuller
+RUN pip install python-igraph
+RUN pip install nltk
+RUN pip install wordcloud
+------edit Dockerfile2-------
+
+------cleaning huge git history-------
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/iuni-cadre/ISSI-tutorial
+git push -u --force origin master
+------cleaning huge git history-------
+
+sudo docker build -t issi-jupyter:version0.9 .
 sudo docker run  -p 8888:8888 issi-jupyter
 
 sudo docker login
-sudo docker tag issi-jupyter everyxs/issi-cadre-jupyter
-sudo docker push everyxs/issi-cadre-jupyter
+sudo docker tag issi-jupyter everyxs/issi-cadre-jupyter:version0.91
+sudo docker push everyxs/issi-cadre-jupyter:version0.91
+
+-------edit config.yaml at the kubernetes cluster--------
+singleuser:
+  lifecycle:
+    postStart:
+      exec:
+        command:
+          - "sh"
+          - "-c"
+          - >
+            gitpuller https://github.com/iuni-cadre/ISSI-tutorial master ISSI-tutorial;
+            #cp -r ~/ISSI-tutorial/local/lib/python3.7 ~/.local/lib/python3.7;
