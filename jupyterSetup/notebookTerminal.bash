@@ -38,4 +38,4 @@ print(os.environ['HOME'])
 java_path = '/home/jovyan/conda'
 os.environ['JAVA_HOME'] = java_path
 print(os.environ.get('JAVA_HOME'))
-!export PATH=$PATH:java_path
+#!export PATH=$PATH:java_path
