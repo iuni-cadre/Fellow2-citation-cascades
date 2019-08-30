@@ -30,6 +30,7 @@ conda install nb_conda
 conda install -c conda-forge matplotlib
 conda install -c conda-forge scikit-learn 
 conda install -c conda-forge pandas 
+conda install -c conda-forge networkx 
 python -m ipykernel install --user --name databricks --display-name "Python (databricks-backend)"
 
 import sys, os
